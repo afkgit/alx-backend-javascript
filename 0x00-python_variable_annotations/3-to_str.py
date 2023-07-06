@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
-"""
-    Conver float to integer
-"""
+""" Basic annotations - to string """
 
 
 def to_str(n: float) -> str:
-    """
+    """ Type-annotated function to_str that takes a float argument.
         Args:
-            n: float number
-
+            n: float type.
         Return:
-            Float of type string
+            The string representation of the float.
     """
-
     return str(n)

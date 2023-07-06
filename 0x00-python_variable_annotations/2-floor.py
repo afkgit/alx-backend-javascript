@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
-"""
-    Truncate float to integer
-"""
+""" Basic annotations - floor """
 
 
 def floor(n: float) -> int:
-    """
+    """ Type-annotated function floor that takes a float argument.
         Args:
-            n: float number
-
+            n: float type.
         Return:
-            Float number truncated to floor
+            The floor of the float.
     """
-
     return int(n)

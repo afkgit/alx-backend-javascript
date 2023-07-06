@@ -1,17 +1,13 @@
 #!/usr/bin/env python3
-"""
-    Handle of string with annotations
-"""
+""" Basic annotations - concat """
 
 
 def concat(str1: str, str2: str) -> str:
-    """
+    """ Type-annotated function concat that takes a str arguments.
         Args:
-            str1: The first string parameter
-            str1: The second string parameter
-
+            str1: str type.
+            str2: str type.
         Return:
-            Concatenated string
+            Concatenated string.
     """
-
-    return (str1 + str2)
+    return str1 + str2
