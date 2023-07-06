@@ -1,9 +1,18 @@
 #!/usr/bin/env python3
-""" Annotates function params and return values """
+"""
+    Duck type and iteration
+"""
+from typing import Iterable, Sequence, List, Union, Tuple
 
-from typing import List, Tuple, Sequence, Iterable
 
+def element_length(lst: Iterable[Sequence])\
+        -> List[Tuple[Sequence, int]]:
+    """
+        Args:
+            lst: Sequence of list
 
-def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
-    """ Duck-typing """
+        Return:
+            List of tuple of sequence of integers
+    """
+
     return [(i, len(i)) for i in lst]

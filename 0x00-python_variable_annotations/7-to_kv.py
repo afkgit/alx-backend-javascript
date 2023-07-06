@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
-""" Takes str and int or float, returns tuple """
-
+"""
+    Mixed Tuple
+"""
 from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    """ Returns tuple """
-    new_tup: Tuple[str, Union[int, float]] = (k, v**2)
-    return new_tup
+    """
+        Args:
+            k: String
+            v: Union: Can be int or float
+
+        Return:
+            Tuple with string and int or float
+    """
+
+    cncat: Tuple(str, Union[int, float])
+    cncat = (k, v**2)
+
+    return cncat

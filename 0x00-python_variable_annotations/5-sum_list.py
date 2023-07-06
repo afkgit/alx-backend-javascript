@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
-""" Takes list input of floats, returns sum """
-
+"""
+    List of floats annotations
+"""
 from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    """ Sums list of floats """
-    total: float = 0
+    """
+        Args:
+            input_list: float numbers
+
+        Return:
+            Sum of the float numbers
+    """
+
+    result: float = 0
+
     for x in input_list:
-        total += x
-    return total
+        result += x
+
+    return result

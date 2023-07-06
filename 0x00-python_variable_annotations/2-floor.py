@@ -1,7 +1,16 @@
 #!/usr/bin/env python3
-""" Returns floor of a float """
+"""
+    Truncate float to integer
+"""
 
 
 def floor(n: float) -> int:
-    """ takes float, returns rounded int """
-    return (int(n))
+    """
+        Args:
+            n: float number
+
+        Return:
+            Float number truncated to floor
+    """
+
+    return int(n)
